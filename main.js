@@ -48,23 +48,25 @@ var $stuff = $(`
     </div>
   </header>
 
-  <section class="overview-start-section">
-    <h4>IBM Overview</h4>
-    <ul class="company-overview-info-1">
-      <li><em>Website</em>ibm.com</li>
-      <li><em>Size</em>10000+ employees</li>
-      <li><em>Type</em>Company - Public (IBM)</li>
-      <li><em>Revenue</em>$10+ billion (USD) per year</li>
-    </ul>
-    <ul class="company-overview-info-2">
-      <li><em>Headquarters</em>Armonk, NY</li>
-      <li><em>Founded</em>1911</li>
-      <li><em>Industry</em>Business Services</li>
-    </ul>
-    <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </section>
+  <main>
+    <section class="overview-start-section">
+      <h4>IBM Overview</h4>
+      <ul class="company-overview-info-1">
+        <li><em>Website</em>ibm.com</li>
+        <li><em>Size</em>10000+ employees</li>
+        <li><em>Type</em>Company - Public (IBM)</li>
+        <li><em>Revenue</em>$10+ billion (USD) per year</li>
+      </ul>
+      <ul class="company-overview-info-2">
+        <li><em>Headquarters</em>Armonk, NY</li>
+        <li><em>Founded</em>1911</li>
+        <li><em>Industry</em>Business Services</li>
+      </ul>
+      <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="overview-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+  </main>
 `);
 
 $(body).append($stuff);
