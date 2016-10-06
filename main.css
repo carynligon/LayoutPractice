@@ -2,6 +2,7 @@ body {
   margin: 0;
   background: #eaeaea;
   font-family: sans-serif;
+  height: 150vh;
 }
 
 nav {
@@ -120,8 +121,9 @@ main {
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   background: #fff;
   border-radius: 5px;
-  width: 60%;
+  width: 45rem;
   padding: 1rem;
+  float: left;
 }
 
 .overview-start-section h4 {
@@ -149,4 +151,23 @@ main {
 
 .company-overview-info-1 {
   margin-right: 5%;
+}
+
+aside {
+  width: 20.6rem;
+  float: left;
+  margin-left: 1rem;
+}
+
+aside div {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  margin-top: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+aside div:first-child {
+  margin-top: 0;
 }
