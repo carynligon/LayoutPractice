@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Francois+One|Gravitas+One|Permanent+Marker';
 body {
   margin: 0
 }
@@ -6,6 +7,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-height: 400px;
+  overflow: hidden;
 }
 
 header i {
@@ -17,8 +20,60 @@ header i {
 h1 {
   position: absolute;
   top: 15vh;
-  font-family: sans-serif;
+  font-family: 'Permanent Marker';
   font-size: 4rem;
   font-weight: 700;
   z-index: 5;
+}
+
+h1 span {
+  color: #E70606;
+  font-family: Anton;
+}
+
+h1 span:last-child {
+  color: #0c9af6;
+}
+
+.letter-div-wrapper {
+  background: #0c9af6;
+  padding: 7rem 0 ;
+}
+
+.letter-div {
+  background: #fff;
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+
+h3 {
+  position: relative;
+  bottom: 4rem;
+  left: 3rem;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+.marquee-div {
+  background: #E70606;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee-div span {
+  font-family: 'Gravitas One';
+  color: #fff;
+  margin: 0;
+  font-size: 4rem;
+  animation: continuousScroll infinite 1s;
+}
+
+@keyframes continuousScroll {
+  100% {
+    transform: translateX(100%);
+  }
 }
