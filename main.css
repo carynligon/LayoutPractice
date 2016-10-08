@@ -52,28 +52,37 @@ h3 {
   position: relative;
   bottom: 4rem;
   left: 3rem;
+  width: 500px;
   color: #fff;
   font-family: sans-serif;
   letter-spacing: 1px;
   font-weight: bolder;
 }
 
-.marquee-div {
+#marquee-container {
+  position: static;
   background: #E70606;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.marquee-div span {
-  font-family: 'Gravitas One';
   color: #fff;
   margin: 0;
-  font-size: 4rem;
-  animation: continuousScroll infinite 1s;
+  padding: 1rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#marquee-container span {
+  color: #fff;
+  display: block;
+  font-size: 6rem;
+  text-transform: uppercase;
+  animation: continuousScroll 15s linear infinite;
+  float: left;
 }
 
 @keyframes continuousScroll {
-  100% {
-    transform: translateX(100%);
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(-100%);
   }
 }

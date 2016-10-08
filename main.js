@@ -1,7 +1,7 @@
 var $header = $('<header></header>');
 var container = $(document).find('#container');
 var $h1 = $('<h1><span>I\'m</span> with <span>Her</span></h1>');
-var $marquee = $('<div class="marquee-div"><span>"I’ve always believed you can learn something from nearly everybody you meet, if you’re open to it."</span></div>')
+var $marquee = $('<h1 id="marquee-container"><span>"I’ve always believed you can learn something from nearly everybody you meet, if you’re open to it."</span></h1>')
 function addStars() {
   $header.empty();
   i = 0;
